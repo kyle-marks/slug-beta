@@ -1,0 +1,3 @@
+# Scratch dir of DMGs that generate_appcast reads; the actual downloads live as
+# GitHub Release assets, so we don't commit the binaries here.
+updates/

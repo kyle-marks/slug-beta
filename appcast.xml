@@ -3,13 +3,26 @@
     <channel>
         <title>Slug</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 30 Jun 2026 09:03:47 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.3.0/Slug-0.3.0.dmg" length="5999786" type="application/octet-stream" sparkle:edSignature="EhBv1pJ4IJA7Cy1lwYCZByV3ORQX6GAMERznNhZN4uATt/Otnho4QZL21tENFUJc6X6slt2rg+TudhykQJocDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.3.0/Slug3-2.delta" sparkle:deltaFrom="2" length="846642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LoQWvSr265Mc9DAPJFWYfsrxCcArPfKvErcZwQ4Pe2cR9IfbPksXSETkvw9UC+5nuQ2rxGvol8iyJgDNeH3+Aw=="/>
+                <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.3.0/Slug3-1.delta" sparkle:deltaFrom="1" length="911082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/X+cpYiEqwFFE26gkGeQxZyT2vUbtzJQ/DTOfnarkEh5x2hq0z0vQR3AHiSSz+CFFFu0wUlV7Y9guRVWZU7QCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Mon, 29 Jun 2026 21:28:46 -0700</pubDate>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.2.0/Slug-0.2.0.dmg" length="5888675" type="application/octet-stream" sparkle:edSignature="bsGNYQAaB/Ivj8QIN1yqPSxPDn1nl9J5dZd/URiRnmSyruWl+MA2akmwWFwH5m2vqukV7RBPmw04oxIy/RUiAQ=="/>
+            <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.3.0/Slug-0.2.0.dmg" length="5888675" type="application/octet-stream" sparkle:edSignature="bsGNYQAaB/Ivj8QIN1yqPSxPDn1nl9J5dZd/URiRnmSyruWl+MA2akmwWFwH5m2vqukV7RBPmw04oxIy/RUiAQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.2.0/Slug2-1.delta" sparkle:deltaFrom="1" length="595546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5rnrg6tmpmNVzYO75GkpCer9PZKqK23JwcQXs06Vp+pGfkLRq0lVOc+OD/xiaF/b/SCWWIYv6E+05LSX3IShAw=="/>
             </sparkle:deltas>
@@ -21,7 +34,7 @@
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.2.0/Slug-0.1.0.dmg" length="5835496" type="application/octet-stream" sparkle:edSignature="gVU7bOOcX/sqlXUbXisIp/HLhMWqrxRuKlCYiRktwZtjNskw1wfpdii7ankrBmoW1bJpTAk6LcGJhqAArE7cDA=="/>
+            <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v0.3.0/Slug-0.1.0.dmg" length="5835496" type="application/octet-stream" sparkle:edSignature="gVU7bOOcX/sqlXUbXisIp/HLhMWqrxRuKlCYiRktwZtjNskw1wfpdii7ankrBmoW1bJpTAk6LcGJhqAArE7cDA=="/>
         </item>
     </channel>
 </rss>

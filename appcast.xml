@@ -3,6 +3,19 @@
     <channel>
         <title>Slug</title>
         <item>
+                   <title>1.0.1</title>
+                   <pubDate>Sat, 15 Aug 2026 21:12:58 -0700</pubDate>
+                   <sparkle:version>16</sparkle:version>
+                   <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+                   <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+                   <description><![CDATA[
+                       <p>Slug has been rebuilt from the ground up.</p>
+                       <p>Your notes, pins, settings and recent vaults carry over automatically the first time it opens.</p>
+                       <p>This build is universal — it runs natively on both Apple Silicon and Intel Macs.</p>
+                   ]]></description>
+                   <enclosure url="https://github.com/kyle-marks/slug-beta/releases/download/v1.0.1/Slug-1.0.1-universal-mac.zip" length="233071607" type="application/octet-stream" sparkle:edSignature="wL7n015xuvb/G+fNlRdt6tkPOiR18K9BrWrzSBDymUd1DM/Y19i7jxO/QOP+3d5RaRPZK7JxjaaaAbXHFczZAw=="/>
+               </item>
+        <item>
             <title>0.3.11</title>
             <pubDate>Fri, 24 Jul 2026 13:55:49 -0700</pubDate>
             <sparkle:version>14</sparkle:version>

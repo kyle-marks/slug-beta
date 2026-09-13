@@ -1,0 +1,9 @@
+{
+  "name": "slug-download-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "test": "node --test"
+  }
+}

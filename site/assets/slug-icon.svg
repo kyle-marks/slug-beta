@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="parchment" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8F2E1"/>
+      <stop offset="1" stop-color="#E4DAC0"/>
+    </linearGradient>
+  </defs>
+  <rect x="72" y="72" width="880" height="880" rx="198" fill="url(#parchment)"/>
+  <rect x="72" y="72" width="880" height="880" rx="198" fill="none" stroke="#D9CDB0" stroke-width="2.5"/>
+  <line x1="150" y1="700" x2="874" y2="700" stroke="#C0392B" stroke-width="22" stroke-linecap="round"/>
+  <path d="M250 700 C 336 700 440 682 548 632 C 640 590 704 556 746 570 C 782 582 794 640 786 700 Z" fill="#1C1C1E"/>
+  <path d="M702 560 C 694 520 678 494 672 470" stroke="#1C1C1E" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M732 560 C 740 516 752 484 760 452" stroke="#1C1C1E" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <circle cx="672" cy="470" r="22" fill="#C0392B"/>
+  <circle cx="760" cy="452" r="22" fill="#C0392B"/>
+</svg>

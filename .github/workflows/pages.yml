@@ -1,0 +1,59 @@
+name: Deploy download site
+run-name: Download site — ${{ github.event.release.tag_name || github.ref_name }}
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/pages.yml
+      - appcast.xml
+      - package.json
+      - scripts/**
+      - site/**
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out distribution repo
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Test release selection
+        run: npm test
+
+      - name: Build site from GitHub Releases
+        run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

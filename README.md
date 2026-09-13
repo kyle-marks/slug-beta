@@ -1,15 +1,16 @@
-# Slug (beta)
+# Slug
 
-Public downloads and auto-update feed for **Slug** — a native macOS markdown
-editor with inline live rendering, a folder workspace, and an embedded terminal.
+Public downloads and release history for **Slug** — a focused Markdown editor
+for macOS with live preview, project files, and agent-ready terminal sessions.
 
 ## Download
 
-Grab the latest `.dmg` from the [**Releases**](https://github.com/kyle-marks/slug-beta/releases)
-page, open it, and drag **Slug** to your Applications folder.
+Visit the [**Slug download page**](https://kyle-marks.github.io/slug-beta/) for
+the latest DMG and changelog.
 
-The app updates itself via [Sparkle](https://sparkle-project.org) — choose
-**Slug ▸ Check for Updates…** any time, or let it check automatically.
+Open the DMG, drag **Slug** to Applications, and launch it. Slug checks GitHub
+Releases for updates automatically; you can also choose
+**Slug → Check for Updates…** in the app.
 
-> This repo hosts only the signed builds and the Sparkle appcast
-> (`appcast.xml`, served via GitHub Pages). The source lives in a separate repo.
+> This distribution repo contains signed builds and the frozen Sparkle appcast
+> used to migrate older installations. Application source lives separately.

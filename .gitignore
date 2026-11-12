@@ -2,3 +2,6 @@
 # GitHub Release assets, so we don't commit the binaries here.
 updates/
 _site/
+
+# Claude Code per-user settings (may contain approved commands)
+.claude/settings.local.json
